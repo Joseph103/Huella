@@ -33,7 +33,7 @@ public Connection conectar(){
     conn = DriverManager.getConnection(ruta+servidor+db,user,pass);
 
     if (conn!=null){
-    System.out.println("Conección a base de datos listo...");
+    System.out.println("Conexión a base de datos lista...");
     }
     else if (conn==null)
     {

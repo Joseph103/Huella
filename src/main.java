@@ -1,5 +1,7 @@
 
-import form.form;
+import form.*;
+
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,7 +21,13 @@ public class main {
     public static void main(String[] args) {
            java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new form().setVisible(true);
+                
+                formRegister x = new formRegister();
+                
+                x.setAlwaysOnTop(true);
+                x.setVisible(true); 
+                 
+                
             }
         });
     }
