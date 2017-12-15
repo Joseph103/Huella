@@ -21,11 +21,13 @@ public class main {
     public static void main(String[] args) {
            java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                formRegister fr = new formRegister();
                 
-                formRegister x = new formRegister();
+              
                 
-                x.setAlwaysOnTop(true);
-                x.setVisible(true); 
+                fr.setAlwaysOnTop(true);
+                fr.setVisible(true); 
+                
                  
                 
             }
