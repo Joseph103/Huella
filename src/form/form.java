@@ -434,7 +434,7 @@ public class form extends javax.swing.JFrame {
     public void guardarHuella()throws Exception{
         //Obtiene los datos del template de la huella actual
         if(template==null){
-            JOptionPane.showMessageDialog(this, "no se puede registrar devido a que no hay hulla a registrar","Error",ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "No se puede registrar debido a que no hay huella para ingresar","Error",ERROR_MESSAGE);
         }
         ByteArrayInputStream datosHuella = new ByteArrayInputStream(template.serialize());
         
